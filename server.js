@@ -13,7 +13,6 @@ import uploadRouter from "./routers/uploadRoute.js"
 import categoryRoutes from './routers/categoryRoutes.js';
 import projectRoutes from './routers/projectRoutes.js';
 import skillsRoutes from './routers/skillsRoutes.js';
-import admin from './config/firebaseAdmin.js';
 import messageRoutes from './routers/messageRoutes.js';
 import testimonialRoutes from './routers/testimonialRoutes.js';
 
