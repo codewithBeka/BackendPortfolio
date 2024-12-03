@@ -28,7 +28,7 @@ const app = express();
 const allowedOrigins = [
     "http://localhost:5173", // Your frontend development URL
     "http://localhost:3000",    // Add other allowed origins here
-    "https://another-domain.com"
+    "https://codewithbereket.vercel.app/"
 ];
 
 // CORS configuration

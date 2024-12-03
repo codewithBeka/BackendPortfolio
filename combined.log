@@ -66,3 +66,51 @@ Error: Not authorized, token failed.
 Error: Not authorized, token failed.
     at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/authMiddleware.js:19:13
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-12-02T22:36:12.754Z [error]: Not authorized, no token. 
+Error: Not authorized, no token.
+    at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/authMiddleware.js:23:11
+    at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/asyncHandler.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:175:3)
+2024-12-02T22:39:48.236Z [error]: Not authorized, no token. 
+Error: Not authorized, no token.
+    at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/authMiddleware.js:23:11
+    at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/asyncHandler.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:175:3)
+2024-12-02T22:45:48.108Z [error]: Not authorized, no token. 
+Error: Not authorized, no token.
+    at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/authMiddleware.js:23:11
+    at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/asyncHandler.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:175:3)
+2024-12-02T22:46:11.963Z [error]: Not authorized, no token. 
+Error: Not authorized, no token.
+    at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/authMiddleware.js:23:11
+    at file:///C:/Users/Dagim/Desktop/mernprojects/portfolio/middlewares/asyncHandler.js:21:19
+    at Layer.handle [as handle_request] (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dagim\Desktop\mernprojects\portfolio\node_modules\express\lib\router\index.js:175:3)
