@@ -3,7 +3,6 @@ import User from "../models/userModel.js";
 import asyncHandler from "./asyncHandler.js";
 
 const authenticate = asyncHandler(async (req, res, next) => {
-  console.log("requested",req.body)
   let token;
 
   // Read JWT from the 'jwt' cookie
@@ -13,6 +12,9 @@ const authenticate = asyncHandler(async (req, res, next) => {
     try {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
       req.user = await User.findById(decoded.userId).select("-password");
+      console.log("requested",  req.user)
+      console.log("decoded", decoded)
+
       next();
     } catch (error) {
       res.status(401);
@@ -25,6 +27,8 @@ const authenticate = asyncHandler(async (req, res, next) => {
 });
 
 const authorizeAdmin = (req, res, next) => {
+    console.log("requested",req.body)
+
   if (req.user && req.user.role === 'admin') {
     next();
   } else {
