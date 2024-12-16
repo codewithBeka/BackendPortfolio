@@ -28,7 +28,8 @@ const allowedOrigins = [
     "http://localhost:5173", // Your frontend development URL
     "http://localhost:3000",    // Add other allowed origins here
     "https://codewithbereket.vercel.app",
-    "https://codewithbeka.netlify.app"
+    "https://codewithbeka.netlify.app",
+    "https://bereketwale.vercel.app/"
 ];
 
 // CORS configuration
